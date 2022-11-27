@@ -4,4 +4,5 @@
 Привет мы пробуем работу с удаленным репозиторием =)     
    
      
-Hi! I'm Gulnoza nice to meet you. I am from Uzbekistan.
+Hello I fixed my mistake, created new branch FIXED. and I think it will work
+
