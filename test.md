@@ -1,3 +1,24 @@
+# git-remote commands
+### Manage the set of repositories ("remotes") whose branches you track.
+git remote
+  ``` [-v | --verbose]```
+Be a little more verbose and show remote url after name.<br>
+- ```add```  [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=(fetch|push)] \<name> \<URL><br>
+Add a remote named <name> for the repository at \<URL>.<br>
+- ```rename``` Rename the remote named \<old> to \<new>. All remote-tracking branches and configuration settings for the remote are updated.<br>
+- ```remove``` ```rm```Remove the remote named <name>. All remote-tracking branches and configuration settings for the remote are removed.<br>
+- ```set-head```Sets or deletes the default branch (i.e. the target of the symbolic-ref refs/remotes/\<name>/HEAD) for the named remote. Having a default branch for a remote is not required, but allows the name of the remote to be specified in lieu of a specific branch.
+- ```set-branches```Changes the list of branches tracked by the named remote. This can be used to track a subset of the available remote branches after the initial setup for a remote.<br>
+- ```get-url```Retrieves the URLs for a remote. Configurations for insteadOf and pushInsteadOf are expanded here. By default, only the first URL is listed.<br>
+- ```set-url```Changes URLs for the remote. Sets first URL for remote \<name> that matches regex \<oldurl> (first URL if no \<oldurl> is given) to \<newurl>. If \<oldurl> doesn’t match any URL, an error occurs and nothing is changed.<br>
+- ```show```Gives some information about the remote \<name>.<br>
+- ```prune```Deletes stale references associated with \<name>. By default, stale remote-tracking branches under \<name> are deleted, but depending on global configuration and the configuration of the remote we might even prune local tags that haven’t been pushed there. Equivalent to git fetch --prune \<name>, except that no new references will be fetched.<br>
+-```update```Fetch updates for remotes or remote groups in the repository as defined by remotes.\<group><br>
+
+
+
+
+
 
 #  GIT COOMMANDS | _using markdown syntaxis_
 ## <GIT>
