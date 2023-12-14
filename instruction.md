@@ -105,3 +105,5 @@ git remote rename <old-name> <new-name>
 ## Изменяет URL удаленного репозитория.
 
 git remote set-url <name> <new-url>
+
+В скрине терминала видны трудности
