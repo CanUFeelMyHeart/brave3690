@@ -149,3 +149,10 @@ git merge existing_branch_name
 ```sh
 git merge --no-ff existing_branch_name
 ```
+
+**19. Отправка новой ветки в удалённый репозиторий**
+
+Передать новую ветку в удалённый репозиторий можно параметром push с флагом <kbd>**-u**</kbd>, указав имя репозитория и имя ветки.
+```sh
+git push -u origin new_branch
+```
