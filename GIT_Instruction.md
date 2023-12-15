@@ -149,3 +149,10 @@ git merge existing_branch_name
 ```sh
 git merge --no-ff existing_branch_name
 ```
+
+**20. Удаление удалённой ветки**
+
+Чтобы избавиться от удалённой ветки, используйте параметр <kbd>**push**</kbd> с флагом <kbd>**--delete**</kbd>, указав имя удалённого репозитория и имя ветки.
+```sh
+git push --delete origin existing_branch
+```
