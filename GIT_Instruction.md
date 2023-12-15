@@ -209,3 +209,10 @@ git remote show origin
 ```sh
 git push -u origin new_branch
 ```
+
+**20. Удаление удалённой ветки**
+
+Чтобы избавиться от удалённой ветки, используйте параметр <kbd>**push**</kbd> с флагом <kbd>**--delete**</kbd>, указав имя удалённого репозитория и имя ветки.
+```sh
+git push --delete origin existing_branch
+```
