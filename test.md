@@ -155,8 +155,6 @@ To insert an image into text, just write the following:
 
 ![this is orange](orange.png)
 
-### links
-
 ### Web links  
 
 text [example link](httml.example.com "tooltip")
