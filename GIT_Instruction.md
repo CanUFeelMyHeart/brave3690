@@ -149,3 +149,10 @@ git merge existing_branch_name
 ```sh
 git merge --no-ff existing_branch_name
 ```
+
+**16. Добавление удалённого репозитория**
+
+Добавить удалённый репозиторий можно параметром <kbd>**remote add**</kbd>, указав <kbd>**shortname**</kbd> и <kbd>**url**</kbd> требуемого репозитория.
+```sh
+git remote add awesomeapp https://github.com/someurl..
+```
