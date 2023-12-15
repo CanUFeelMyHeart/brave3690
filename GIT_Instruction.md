@@ -156,3 +156,8 @@ git merge --no-ff existing_branch_name
 ```sh
 git pull
 ```
+
+Также можно просмотреть подробные сведения о загруженных файлах с помощью флага <kbd>**--verbose**</kbd>
+```sh
+git pull --verbose
+```
