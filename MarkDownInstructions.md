@@ -50,3 +50,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/alexdezzo/testrep.git
 git push -u origin main
+```
+# Обновить удаленную репозиторию на github
+
+Для загрузки с удаленной репы в локальную необходима команда:
+>git pull
+
+Для того, что бы выгрузить в удаленную репу необходима команда:
+>git push
+
+В случае, если необходимо добавить новую ветку:
+
+>git push --set-upstream origin *название_вашей_ветки*
