@@ -14,3 +14,5 @@
 
 > git push --set-upstream origin name - отправить изменения о новой ветке в удаленный репозиторий 
 
+> git push origin --delete name - удаление ветки в удаленном репозитории 
+
