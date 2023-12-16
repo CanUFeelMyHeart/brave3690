@@ -21,4 +21,4 @@ hello world
 [Текст ссылки](https://www.example.com)
 
 Для добавления изображенй 
-![Милота](0MPa8XOSn1w.jpg)sdsaasas
+![Милота](0MPa8XOSn1w.jpg)
