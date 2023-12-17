@@ -3,3 +3,16 @@
 Привет, Гитхаб! Здесь будет информация о первых командах из 3 семинара
 > git push - отправить изменения в удаленный репозиторий 
 Привет мы пробуем работу с удаленным репозиторием =)
+
+3. Создаем новую ветку и вносим необходимые изменения в файл
+```sh
+git checkout -b updatereadme
+vim README.md
+git add README.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+4. Делаем push  
+```sh
+git push --set-upstream origin updatereadme
+```
+5. Переходим на свою страницу репозитория. Выбираем ветку **updatereadme** и жмем кнопку **Compare & pull request**
