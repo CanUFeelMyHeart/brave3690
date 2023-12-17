@@ -87,3 +87,6 @@ git merge branch_name
 ```sh
 git branch -d branch_name
 ```
+
+## Работа с удаленным репозиторием (на примере сайта [GitHub](GitHub.ru))
+
