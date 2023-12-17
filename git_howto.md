@@ -83,6 +83,11 @@ git checkout branch_name
 ```sh
 git merge branch_name
 ```
+- Переименовать ветку 
+```sh
+git branch -m [старое-название-ветки] [новое-название-ветки]
+```
+
 - Удалить ненужную ветку
 ```sh
 git branch -d branch_name
@@ -108,6 +113,11 @@ git pull
 
 ```sh
 git push
+```
+
+Отправить ветку в удаленный репозиторий 
+```sh
+git push origin [branch-name]
 ```
 
 
