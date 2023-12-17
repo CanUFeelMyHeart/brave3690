@@ -90,6 +90,18 @@ git branch -d branch_name
 
 ## Работа с удаленным репозиторием (на примере сайта [GitHub](GitHub.ru))
 
+Чтобы клонировать репозиторий с сайта необходимо ввести команду
+```sh
+git clone [ссылка на удалённый репозиторий]. Проект появится в директории, где вы находились в момент клонирования.
+```
+
+Связать удалённый и локальный репозитории 
+```sh
+git remote add origin [ссылка на удалённый репозиторий].
+```
+
+А теперь пошагово этапы работы с чужим репозиторием
+
 1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://git@github.com:gulden-geekbrains/version_control.git>
 2. Выполняем команду клонирования из своей fork-копии
 ```sh
@@ -122,6 +134,6 @@ GIT_SSH_COMMAND='ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes' git push 
 git config remote.origin.url git@github.com:gitusername/reponame
 git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes"
 ```
-# Как подружить git с github под Windows 10
+### Как подружить git с github под Windows 10
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
