@@ -91,3 +91,7 @@ git pull --rebase  - команда с автоматическим решени
 git push
 git push -u origin main - загрузить на подключенный удаленный репозиторий origin ветку main
 ```
+
+# эту инструкцию можно посмотреть по адресу:
+
+ ![ссылка](https://github.com/ProkhorovaKseniya/HW3_Kseniya/blob/git_instr/Git_instruction.md)
