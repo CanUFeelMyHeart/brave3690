@@ -77,5 +77,8 @@ git clone git@github.com:*ваш_github*/version_control.git
 ```
 **Делаем PUSH**
 ```sh
-git push --set-upstream origin updatereadme
+git push
 ```
+**Выталкиваем новую ветку**
+```sh
+git push --set-upstream origin <название_ветки>
