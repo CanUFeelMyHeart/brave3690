@@ -33,3 +33,25 @@ git log --oneline
 git commit + комментарий
 ```
 
+# Работа с ветками
+
+Отображение всех веток
+```sh
+git branch
+```
+Добавление новой ветки
+```sh
+git branch <name_branch>
+```
+Удаление ветки
+```sh
+git branch -d <name_branch>
+```
+Отражение списка действий и сохрнений с визуализацией
+```sh
+git log --graph
+```
+Слияние веток
+```sh
+git merge <name_branch>
+```
