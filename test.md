@@ -7,3 +7,27 @@
 # Создание локального репозитория
 
 * git clone - позволяет сделать клон себе на компьютер
+
+1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория <https://github.com/CanUFeelMyHeart/brave3690>
+
+2. Выполняем команду клонирования из своей fork-копии
+```sh
+git clone https://github.com/CatherineKylakova/brave3690
+```
+3. Создаем новую ветку и вносим необходимые изменения в файл
+```sh
+git checkout -b updatetest
+vim test.md
+git add test.md
+git commit -m "Добавили инструкцию как создать pull request"
+```
+4. Делаем push  
+```sh
+git push --set-upstream origin updatetest
+```
+5. Переходим на свою страницу репозитория. Выбираем ветку **updatetest** и жмем кнопку **Compare & pull request**
+
+# Инструкция по связке Git - Github
+
+Чтобы склонировать репозиторий к себе на ПК, используется команда:
+> **git clone URL** - клонируется реаозиторий по адресу **URL**
