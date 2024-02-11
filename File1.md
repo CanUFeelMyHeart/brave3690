@@ -68,4 +68,19 @@ git ls-tree -r main --name-only
 ```sh
 git rm -r --cached Task3/bin/ <file name>
 ```
-
+18. Добавить удалённый репозиторий
+```sh
+git git remote add <shortname> <url>
+```
+19. Клонировать удаленный репозиторий
+```sh
+git clone <url>
+```
+20. Выкачать изменения с удаленного репозитория на локальный
+```sh
+git pull
+```
+21. Отправить изменения локального репозитория на удаленный
+```sh
+git push
+```
