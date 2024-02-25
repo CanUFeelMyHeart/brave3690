@@ -24,6 +24,6 @@
 2. лист
 
 ### ccылки
-[текст ссылки](https://www.example.com)
+[Текст ссылки](https://www.example.com)
 
-
+# Добавим как добавлять картинки в markdown 
