@@ -60,3 +60,23 @@ Delete branch
 ```sh
 git branch -d "name"
 ```
+
+Update local repository from remote without modifying your working directory
+```bash
+git fetch
+```
+
+Clone remote repository to local
+```bash
+git clone
+```
+
+Download commits from remote repo
+```bash
+git pull
+```
+
+Upload local commits to remote repo
+```bash
+git push
+```
