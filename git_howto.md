@@ -152,7 +152,13 @@ git log --oneline --graph
 git clone <скопированная ссылка на репозиторий>
 ```
 
-2. 
+2. Просмотр адреса для чтения и записи, привязанных к репозиторию
+
+```sh
+git remote -v
+```
+
+
 
 
 ![Изображение](https://polotnos.cdnbro.com/posts/30825705-smailiki-razvodiashchie-rukami-8.jpg)
