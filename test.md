@@ -3,3 +3,56 @@
 Привет, Гитхаб! Здесь будет информация о первых командах из 3 семинара
 > git push - отправить изменения в удаленный репозиторий 
 Привет мы пробуем работу с удаленным репозиторием =)
+
+
+## Клонирование репозитория
+
+```SH
+git clone https://github.com/CeperaPetrov/brave3690.git
+```
+
+## Получение изменений из удалённого репозитория — Fetch и Pull
+
+```
+git fetch
+```
+FETCH - забирает данные в ваш локальный репозиторий, но не сливает их с какими-либо вашими наработками и не модифицирует то, над чем вы работаете в данный момент. Вам необходимо вручную слить эти данные с вашими, когда вы будете готовы.
+
+```
+git pull
+```
+PULL - извлекает (fetch) данные с сервера, с которого вы изначально клонировали, и автоматически пытается слить (merge) их с кодом, над которым вы в данный момент работаете.
+
+## Отправка изменений в удалённый репозиторий
+```
+git push
+```
+
+
+## Просмотр удалённого репозитория
+
+```
+git remote show origin
+* remote origin
+  Fetch URL: https://github.com/CeperaPetrov/brave3690.git
+  Push  URL: https://github.com/CeperaPetrov/brave3690.git
+  HEAD branch: main
+  Remote branch:
+    main tracked
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push':
+    main pushes to main (up to date)
+```
+
+## Удаление и переименование удалённых репозиториев
+
+Переименование удаленного репозитория
+```
+git remote rename [from] [to]
+```
+
+И удаление
+```
+git remote remove [name]
+```
