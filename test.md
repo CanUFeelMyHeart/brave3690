@@ -8,3 +8,5 @@
 Rebase (перебазирование) — один из способов в git, позволяющий объединить изменения двух веток. У этого способа есть преимущество перед merge (слияние) — он позволяет переписать историю ветки, придав тот истории тот вид, который нам нужен.
 Hellow! Add great wishes! SDL !
 THX! 
+
+I have a problem the first time, git-hub request my latest version VSC. But my MAC don't support this version. Git-hub desktop is the answer. 
