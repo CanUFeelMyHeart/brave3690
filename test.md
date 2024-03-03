@@ -25,3 +25,7 @@ git checkout <branch_name>
 git add <file_name>
 git commit -m "Message_text"
 ```
+3. Отправляем изменения на внешнюю версию репозитория с помощью команды __git push__
+```sh
+git push --set-upstream origin <branch_name>
+```
