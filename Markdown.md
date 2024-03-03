@@ -94,4 +94,8 @@ git branch -a
 ```
 - **git branch -a** Вывод списка всех удаленных веток
 
+```sh 
+git commit -am "added_message"
+```
+- git **commit -am "added_message"** Команда add и commit в одной команде, добавляет изменение в файл и сохраняет 
 
