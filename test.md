@@ -29,3 +29,4 @@ git commit -m "Message_text"
 ```sh
 git push --set-upstream origin <branch_name>
 ```
+4. Переходим на свою страницу репозитория. Выбираем ветку **branch_name** и жмем кнопку **Compare & pull request**
