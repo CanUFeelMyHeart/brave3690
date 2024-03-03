@@ -17,3 +17,11 @@ git push - отправка локальной версии репозитори
 ```sh
 git clone https://github.com/твое имя в гитхаб/название исходного репозитория.git
 ```
+2. Создаем новую ветку и вносим в неё необходимые (по нашему скромному мнению) изменения
+```sh
+git branch <branch_name>
+git checkout <branch_name>
+Внесение изменений
+git add <file_name>
+git commit -m "Message_text"
+```
