@@ -73,3 +73,26 @@
 
 __git branch__
 Эта команда выступает универсальным инструментом администрирования веток. С ее помощью можно создавать изолированные среды разработки в одном репозитории.
+
+```sh
+git branch name_branch
+```
+- **git branch name_branch** Создание новой ветки с именем 
+
+```sh
+git checkout -b name_branch 
+```
+- **git checkout -b name_branch** Создание новой ветки и переход в нее *
+
+```sh 
+git branch -d name_branch 
+```
+- **git branch -d name_branc** Удаление ветки 
+
+```sh 
+git branch -a 
+```
+
+- **git branch -a** Вывод списка всех удаленных веток
+
+
