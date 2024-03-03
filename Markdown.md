@@ -92,7 +92,6 @@ git branch -d name_branch
 ```sh 
 git branch -a 
 ```
-
 - **git branch -a** Вывод списка всех удаленных веток
 
 
