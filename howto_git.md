@@ -53,4 +53,27 @@ git checkout <branchname>
 git merge <branchname>
 ```
 
-Ещё добавим текст
+Копирование удалённого репозитория
+```sh
+git clone <url_repo>
+```
+
+"Подружить" удалённый и локальный репозиторий
+```sh
+git remote add <url_repo> <branch>
+например
+git remote add https://github.com/PetrovaEA/brave3690.git origin
+```
+Отправить изменения во внешний репозиторий
+```sh
+git push 
+```
+Получить актальное состояние из внешнего репозитория
+```sh
+git pull 
+```
+
+
+
+
+
