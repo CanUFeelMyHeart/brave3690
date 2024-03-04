@@ -58,6 +58,7 @@ git clone https://github.com/username/repo.git
 ```sh
 git clone https://github.com/username/repo.git my-custom-folder
 ```
+
 Чтобы создать Pull Request (запрос на внесение изменений) в репозиторий https://github.com/CanUFeelMyHeart/brave3690, выполните следующие шаги:
 
 Форкните репозиторий:
