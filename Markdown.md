@@ -99,3 +99,8 @@ git commit -am "added_message"
 ```
 - git **commit -am "added_message"** Команда add и commit в одной команде, добавляет изменение в файл и сохраняет 
 
+```sh 
+git branch -M main
+```
+- **git branch -M main** Переименовать master на main 
+ 
