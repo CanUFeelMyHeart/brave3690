@@ -59,4 +59,3 @@ git clone https://github.com/username/repo.git
 git clone https://github.com/username/repo.git my-custom-folder
 ```
 
-![alt text](image.png)
