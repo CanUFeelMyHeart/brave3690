@@ -80,3 +80,6 @@ git push --set-upstream origin имя_новой_ветки
 ```
 
 5. Переходим на свою страницу репозитория. Выбираем ветку **имя_новой_ветки** и жмем кнопку **Compare & pull request**
+
+Ссылки:
+[Предыдущая версия инструкции по работе с MarkDown](https://github.com/Bobritta/MarkDownInstruction.git "Надеюсь, получилось")
